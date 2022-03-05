@@ -123,3 +123,22 @@ img {
   border-radius: 0 8px 8px 0;
   opacity: 0.5;
 }
+
+@media (max-width: 900px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 900px) {
+  .left-column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .right-column {
+    width: 100%;
+  }
+}
